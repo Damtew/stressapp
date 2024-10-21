@@ -1,6 +1,8 @@
 import numpy as np
+import joblib
 import streamlit as st
 import pandas as pd
+import seaborn as sns
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.neighbors import KNeighborsClassifier
@@ -202,4 +204,6 @@ st.markdown("""
     <div class="footer">
         <p>  Damtew Engida | © Cumbria Universtity and Robert Kennedy College</p>
     </div>
+    """, unsafe_allow_html=True)
+
     """, unsafe_allow_html=True)
