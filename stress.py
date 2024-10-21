@@ -204,4 +204,4 @@ st.markdown("""
     <div class="footer">
         <p>  Damtew Engida | © Cumbria Universtity and Robert Kennedy College</p>
     </div>
-    """, unsafe_allow_html=True) 
+    """, unsafe_allow_html=True)
